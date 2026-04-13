@@ -1,0 +1,20 @@
+{% extends "main/base.html" %}
+
+{% block title %}الرئيسية{% endblock %}
+
+{% block content %}
+<body class="hero-page">
+    
+
+<section class="hero" >
+
+    <div class="hero-content">
+        <h2>مرحبًا بك في عالم الشعر السعودي</h2>
+        <p>اكتشف جماليات الشعر السعودي وتاريخه العريق من خلال موقعنا الشامل.</p>
+        <a href="{% url 'main:about_poetry_view' %}" class="primary-btn">تعرف على الشعر</a>
+    </div>
+
+
+</section>
+</body>
+{% endblock %}

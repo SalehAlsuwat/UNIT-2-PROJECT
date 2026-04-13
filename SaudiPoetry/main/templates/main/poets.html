@@ -1,0 +1,122 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}الشعراء{% endblock %}
+
+{% block content %}
+    <section class="poets-page">
+
+  <div class="about-container">
+
+    <p class="article-category">الشعراء</p>
+
+    <h1 class="article-title">أبرز شعراء الشعر الشعبي السعودي</h1>
+
+    <p class="lead">
+      مجموعة من أبرز شعراء الشعر الشعبي الذين أسهموا في حفظ الهوية الثقافية والتاريخية عبر قصائدهم.
+    </p>
+
+    <!-- POET 1 -->
+    <div class="poet-card">
+
+  <div class="poet-header">
+    <img src="{% static 'images/khalaf_bin_hathal.webp' %}" alt="خلف بن هذال">
+    <div>
+      <h2 class="poet-name">خلف بن هذال العتيبي</h2>
+      <p class="poet-title">شاعر الوطن والخليج وشاعر الملوك</p>
+    </div>
+  </div>
+
+  <div class="poet-info">
+    <p>
+      شاعر سعودي من مواليد ساجر عام 1943، يُعد من أبرز شعراء الشعر النبطي في الخليج.
+      بدأ كتابة الشعر مبكرًا وبرزت شهرته في القصائد الوطنية والحماسية.
+      شارك في مناسبات وطنية كبرى مثل حرب الخليج والجنادرية.
+      نال جوائز وتكريمات عديدة أبرزها جائزة الملك فيصل للإبداع الأدبي.
+    </p>
+  </div>
+
+  <div class="poet-poem">
+    <h3>من شعره</h3>
+
+    <div class="poem">
+      <p class="first-line">سولي الكيف وأرهولي من الدله</p>
+      <p class="second-line">البن الأشقر يداوي الراس فنجاله</p>
+      <p class="first-line">كيف لنا نحرقه بالنار ونزله</p>
+      <p class="second-line">وليا انقطع لو ورا صنعاء عنينا له</p>
+    </div>
+  </div>
+
+</div>
+
+   <div class="poet-card">
+
+  <div class="poet-header">
+    <img src="{% static 'images/saad_bin_jadlan.webp' %}" alt="سعد بن جدلان">
+    <div>
+      <h2 class="poet-name">سعد بن جدلان</h2>
+      <p class="poet-title">ملك الوصف</p>
+    </div>
+  </div>
+
+  <div class="poet-info">
+    <p>
+      شاعر سعودي من مواليد بيشة عام 1947، ينتمي إلى قبيلة أكلب.
+      يُعد من أبرز شعراء النبطي في العصر الحديث، واشتهر بلقب "ملك الوصف"
+      بسبب قدرته الفريدة على رسم الصور الشعرية بدقة عالية.
+      تنوع شعره بين الغزل والفخر والحكمة والوصف، وترك إرثًا شعريًا كبيرًا.
+      توفي عام 2016 بعد مسيرة شعرية مؤثرة في الساحة الخليجية.
+    </p>
+  </div>
+
+  <div class="poet-poem">
+    <h3>من شعره</h3>
+
+    <div class="poem">
+      <p class="first-line">الا يا الله ياللي تحت هيبة سلطنتك اسلمت</p>
+      <p class="second-line">لك المسلم يسبح لك بحمدك ولك الاسلامي</p>
+      <p class="first-line">احمدك واشكرك واثني عليك بما علي انعمت</p>
+      <p class="second-line">تزودني وفا قدر العشير ووصل الارحامي</p>
+    </div>
+
+  </div>
+
+</div>
+
+    <div class="poet-card">
+
+  <div class="poet-header">
+    <img src="{% static 'images/khalid_faisal.webp' %}" alt="خالد الفيصل">
+    <div>
+      <h2 class="poet-name">الأمير خالد الفيصل</h2>
+      <p class="poet-title">شاعر وأديب</p>
+    </div>
+  </div>
+
+  <div class="poet-info">
+    <p>
+      أمير وشاعر سعودي من مواليد مكة عام 1940م، ابن الملك فيصل بن عبدالعزيز.
+      يُعد من أبرز رموز الأدب والفن في المملكة، جمع بين الشعر والسياسة والفن التشكيلي.
+      تولى مناصب مهمة أبرزها إمارة عسير ومكة المكرمة ووزارة التربية والتعليم.
+      أصدر عدة دواوين شعرية مثل "قصائد نبطية" و"وزن الكلام"،
+      وحصل على أوسمة وتكريمات عربية وعالمية تقديرًا لإسهاماته الثقافية.
+    </p>
+  </div>
+
+  <div class="poet-poem">
+    <h3>من شعره</h3>
+
+    <div class="poem">
+      <p class="first-line">من خصايص عنود الصيد كثر الطواري</p>
+      <p class="second-line">عادة الظبي يجفل لاتحرك ظلاله</p>
+      <p class="first-line">ما يصيد الجوازي كود بخصٍ وضاري</p>
+      <p class="second-line">القنص بالركاده والتسرع جهاله</p>
+    </div>
+
+  </div>
+
+</div>
+
+  </div>
+
+</section>
+{% endblock %}

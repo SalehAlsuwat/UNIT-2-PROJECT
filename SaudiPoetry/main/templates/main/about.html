@@ -1,0 +1,56 @@
+{% extends 'main/base.html' %}
+
+{% block title %}عن الموقع{% endblock %}
+
+{% block content %}
+
+<section class="about-page">
+
+  <div class="about-container">
+
+    <p class="article-category">عن الموقع</p>
+
+    <h1 class="article-title">منصة الشعر الشعبي السعودي</h1>
+
+    <p class="lead">
+      منصة رقمية تهدف إلى تحويل الشعر الشعبي السعودي إلى تجربة تفاعلية حديثة تحفظ الهوية الثقافية بأسلوب بصري معاصر.
+    </p>
+
+    <div class="about-box">
+      <h2>هدف الموقع</h2>
+      <p>
+        إبراز الشعر الشعبي السعودي كذاكرة ثقافية حيّة، وتقديمه بطريقة تفاعلية حديثة تعتمد على التمرير والسرد البصري.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <h2>فكرة المشروع</h2>
+      <p>
+        يعتمد الموقع على أسلوب السرد التفاعلي (Scroll Story) حيث يظهر المحتوى تدريجيًا أثناء التمرير ليخلق تجربة قراءة سينمائية.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <h2>التقنيات المستخدمة</h2>
+      <ul>
+        <li>Django (Backend)</li>
+        <li>HTML / CSS</li>
+        <li>Responsive Design</li>
+        <li>Dark & Light Mode</li>
+      </ul>
+    </div>
+
+    <div class="about-box">
+      <h2>المطور</h2>
+      <p>
+        تم تطوير الموقع بواسطة: <strong>صالح السواط</strong> – أكاديمية طويق
+      </p>
+    </div>
+
+    <a href="{% url 'main:home_view' %}" class="primary-btn">العودة للرئيسية</a>
+
+  </div>
+
+</section>
+
+{% endblock %}

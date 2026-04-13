@@ -1,0 +1,56 @@
+{% extends 'main/base.html' %}
+
+{% block title %}اتصل بنا{% endblock %}
+
+{% block content %}
+
+<section class="contact-page">
+
+  <div class="article-header">
+    <p class="article-category">تواصل</p>
+    <h1 class="article-title">اتصل بنا</h1>
+  </div>
+
+  <p class="lead">
+    نسعد بتواصلك معنا لأي استفسار حول الشعر الشعبي السعودي أو الموقع أو الاقتراحات.
+  </p>
+
+  <div class="contact-container">
+
+    <div class="contact-info">
+
+      <div class="contact-box">
+        <h2> الموقع</h2>
+        <p>الرياض، المملكة العربية السعودية</p>
+      </div>
+
+      <div class="contact-box">
+        <h2> البريد الإلكتروني</h2>
+        <p><a href="mailto:salehalsuwat2@gmail.com">salehalsuwat2@gmail.com</a></p>
+      </div>
+
+      <div class="contact-box">
+        <div class="social">
+        <h2> وسائل التواصل</h2>
+        <a href="https://github.com/SalehAlsuwat"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/salehalsuwat"><i class="fa-brands fa-linkedin"></i></a></p>
+      </div>
+    </div>
+
+    </div>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="الاسم الكامل" required>
+      <input type="email" placeholder="البريد الإلكتروني" required>
+      <textarea rows="6" placeholder="اكتب رسالتك هنا..." required></textarea>
+
+      <button type="submit" class="primary-btn">إرسال</button>
+
+    </form>
+
+  </div>
+
+</section>
+
+{% endblock %}
